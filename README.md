@@ -1,2 +1,3 @@
 # Projects-site
-Simple site with description of my projects
+<h2 align="center">Simple site with description of my projects</h2>
+
