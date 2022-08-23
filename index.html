@@ -23,10 +23,14 @@
                     <div class="in_con">
                         <div class="con_scmedia">
                             
-
+                       
+                            <button id="git" class="gitbut"></button>
                         </div>
                             <div class="con_dir">
-                                <span class="direc"></span>
+                                <button id="butsrch" class="srch">Find</button>
+                                <input placeholder="Search" type="search" class="inp_bef" id="srh">
+                             
+                               
                             </div>
                         
 
@@ -36,37 +40,129 @@
                 <div class="st_nvbar">
                     <div class="nvbuts">
                         <button class="nvb" id="hm"><span class="nvsp">Home</span></button>
-                        <button class="nvb"><span class="nvsp">Author</span></button>
-                        <button class="nvb"><span class="nvsp">Information</span></button>
-                        <button class="nvb"><span class="nvsp">Contact</span></button>
+                        <button class="nvb" id="inf"><span class="nvsp">Info</span></button>
+                        <button class="nvb" id="aut"><span class="nvsp">Author</span></button>
+                     
+                        <button class="nvb" id="con"><span class="nvsp">Contact</span></button>
                     </div>
                     
                 </div>
 
             </div>
             <div class="pg_content">
-                <div class="con_text" id="contxt">
+              
+                <div class="con_text" id="conhome">
                     <span id="title">Home</span>
                     <h2 class="cn_tx" id="cntx">Welcome User,in my library of projects!</h2>
                     <h2 class="cn_tx" id="cntx">Nice to see you, Look around...</h2>
-                    <div class="con_text" id="contxt">
-                        <span id="titlesm">Projects</span>
-                        <h2 class="cn_txsm" id="cntx">In this table you will find project who can intrest you</h2>
-                        <h2 class="cn_txsm" id="cntx">You can download project and run</h2>
                         
-                    </div>
                 </div>
-
-                <div class="con_pro" id="con_pro">
-                    <span id="title">Author</span>
-                    <h2 class="cn_tx" id="cntx">This project was created by Natrexq on MIT Lic</h2>
-                    <h2 class="cn_txsm" id="cntx">You can edit,share and do someting with it</h2>
-                    <h2 class="cn_txsm" id="cntx">Btw thx for download, please see my other projects :P</h2>
+                <div class="con_text">
+                    <span id="titlesm">Top Projects</span>
+                        <h2 class="cn_txsm" id="cntx">Here you will find my best projects</h2>
+                        <h2 class="cn_txsm" id="cntx">You can See project on GitHub and download it</h2>
                 </div>
-                <div class="con_text" id="contxt">
+                <div class="con_text" id="conhome">
+                    <table>
+                        <tr>
+                            <th>Git Hub:</th>
+                            <th>Run It:</th>
+                            <th>Name:</th>
+                            <th>End Date:</th>
                     
+                        </tr>
+                        <tr>
+                            <td><button class="dwload">Download</button></td>
+                            <td><button class="runbut">Run:</button></td>
+                            <td>FileFormatChanger Website </td>
+                            <td id="date">14/08/2022</td>
+                        </tr>
+                        <tr>
+                            <td><button class="dwload">Download</button></td>
+                            <td><button class="runbut">Run:</button></td>
+                            <td>4UShop-Online-Shop</td>
+                            <td id="date">Dead/Soon...</td>
+                        </tr>
+                        <tr>
+                            <td><button class="dwload">Download</button></td>
+                            <td><button class="runbut">Run:</button></td>
+                            <td>BMI-Calculator-HTML-CSS-JS </td>
+                            <td id="date">Soon...</td>
+                        </tr>
+                        <tr>
+                            <td><button class="dwload">Download</button></td>
+                            <td><button class="runbut">Run:</button></td>
+                            <td>Projects-site</td>
+                            <td id="date">In Progress...</td>   
+                        </tr>
+                      
+                    
+                    </table>
+                    
+                        
                 </div>
-                
+                <div class="con_text">
+                    <span id="titlesm">Other Projects</span>
+                        <h2 class="cn_txsm" id="cntx">Here you will find my other project, a lot of from is not ended1</h2>
+                        <h2 class="cn_txsm" id="cntx">Soon i wanna set to public my old repos</h2>
+                </div>
+                <div class="con_text">
+                    <table id="tb">
+                        <tr>
+                            <th>Git Hub:</th>
+                            <th>Run It:</th>
+                            <th>Name:</th>
+                            <th>Date:</th>
+                    
+                        </tr>
+                        <tr>
+                            <td><button class="dwload">Download</button></td>
+                            <td><button class="runbut">Run:</button></td>
+                            <td>???</td>
+                            <td id="date">??/??/??</td>
+                        </tr>
+                        <tr>
+                            <td><button class="dwload">Download</button></td>
+                            <td><button class="runbut">Run:</button></td>
+                            <td>???</td>
+                            <td id="date">??/??/??</td>
+                        </tr>
+                        <tr>
+                            <td><button class="dwload">Download</button></td>
+                            <td><button class="runbut">Run:</button></td>
+                            <td>???</td>
+                            <td id="date">??/??/??</td>
+                        </tr>
+                        <tr>
+                            <td><button class="dwload">Download</button></td>
+                            <td><button class="runbut">Run:</button></td>
+                            <td>???</td>
+                            <td id="date">??/??/??</td>
+                        </tr>
+                      
+                    
+                    </table>
+                </div>
+                    
+                <div class="con_text" id="conhome">
+                    <span id="title">Info</span>
+                    <h2 class="cn_tx" id="cntx">Shareing, Licence and more</h2>
+                    <h2 class="cn_tx" id="cntx">This small project was created on MIT Licence</h2>
+                    <h2 class="cn_tx" id="cntx">You can: copy,edit and do something but you must place  information about Author (Me)</h2>
+                        
+                </div>
+                <div class="con_text" id="conhome">
+                    <span id="title">Author</span>
+                    <h2 class="cn_tx" id="cntx">Im 17 years old boy from Poland, and i wanna be Front-End Dev in the future</h2>
+                   
+                </div>
+                <div class="con_text" id="conhome">
+                    <span id="title">Contact</span>
+                    <h2 class="cn_tx" id="cntx">Discord: Natrexq #2400</h2>
+                    <h2 class="cn_tx" id="cntx">Email: Soon</h2>
+                   
+                   
+                </div>
               
 
             </div>

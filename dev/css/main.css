@@ -36,7 +36,7 @@
 
 body{
     margin: 0;
-    height: 120em;
+    height: 220em;
     
 }
     .site{
@@ -49,21 +49,27 @@ body{
         align-items: center;
     }
         .page{
-
-
+            border-radius: 1em;
             background-color:   #FFFCF6;
             width: 65em;
             height: 98%;
             filter: drop-shadow(0 0 20px #bebebe);
             -webkit-filter: drop-shadow(0 0 20px #bebebe);
+            -webkit-border-radius: 1em;
+            -moz-border-radius: 1em;
+            -ms-border-radius: 1em;
+            -o-border-radius: 1em;
 }
         .pg_start{
+            border-radius: 1em;
             width: 100%;
             height: 14em;
             background-color:   #006A6A;
-           
             display: block;
-          
+            -webkit-border-radius: 1em;
+            -moz-border-radius: 1em;
+            -ms-border-radius: 1em;
+            -o-border-radius: 1em;
 }
             .st_info{
                 width: 100%;
@@ -96,21 +102,22 @@ body{
                     width: 40%;
                     height: 90%;
                     background-color: #075a5a;
-                    border-radius: 4em 0em 0em 4em;
-                    -webkit-border-radius: 4em 0em 0em 4em;
-                    -moz-border-radius: 4em 0em 0em 4em;
-                    -ms-border-radius: 4em 0em 0em 4em;
-                    -o-border-radius: 4em 0em 0em 4em;
+                    border-radius: 4em 1em 0em 4em;
+                    -webkit-border-radius: 4em 1em 0em 4em;
+                    -moz-border-radius: 4em 1em 0em 4em;
+                    -ms-border-radius: 4em 1em 0em 4em;
+                    -o-border-radius: 4em 1em 0em 4em;
 }
                     .con_dir{
                         width: 100%;
-                        height: 4em;
+                        height: 5em;
+                        display: flex;
                         justify-content: center;
-                        align-items: center;
+                        align-items: flex-start;
                     }
                     .con_scmedia{
                         width: 100%;
-                        height: 6em;
+                        height: 5em;
                         display: flex;
                         justify-content: space-around;
                         align-items: center;
@@ -164,58 +171,37 @@ body{
                         width: 100%;
                         height: 80%;
                         display: flex;
-                        justify-content: space-around;
+                        justify-content: flex-start;
                         flex-direction: column;
                         align-items: center;
                         
                     }
                     
                         .con_text{
+                            border-radius: 1em;
+                            margin-top: 1em;
+                            padding: 3.5em 0em 3em 0em;
                             width: 80%;
-                            height: 30%;
+                            box-shadow: 0 0 13px #eeeeee;
                             text-align: center;
                             display: flex;
+                            justify-content: flex-start;
                             align-items: center;
                             flex-direction: column;
-                            
-                            
-                        }
-                        .con_pro{
-                            
-                            width: 80%;
-                            height: 30%;
-                            text-align: center;
+                            -webkit-border-radius: 1em;
+                            -moz-border-radius: 1em;
+                            -ms-border-radius: 1em;
+                            -o-border-radius: 1em;
+}
+                        .welp{
                             display: flex;
-                            align-items: center;
-                            flex-direction: column;
-                            display: none;
-                            
-                            
                         }
-                        .con_inf{
-                            width: 80%;
-                            height: 30%;
-                            text-align: center;
-                            display: flex;
-                            align-items: center;
-                            flex-direction: column;
-                            
-                            
-                        }
-                        .con_con{
-                            width: 80%;
-                            height: 30%;
-                            text-align: center;
-                            display: flex;
-                            align-items: center;
-                            flex-direction: column;
-                            
-                            
-                        }
+                       
                         .con_res{
                             width: 35%;
                             height: 20%;
                             background-color: blue;
+                            display: none;
                         }
                     #title{
                         font-family: 'Lato', sans-serif;
@@ -245,4 +231,133 @@ body{
                     }
 
 
+                    .gitbut{
+                        width: 12em;
+                        height: 4em;
+                        background-size: cover;
+                        background-image: url('/dev/css/github.png');   
+                        border: none;
+                        background-color: transparent;
+                        background-position-y: -0.4em;
+
+                    }
+                    .inp_bef{
+                        width: 12em;
+                        height: 3em;
+                        transition: 0.5s ease-out;
+                        -webkit-transition: 0.5s ease-out;
+                        -moz-transition: 0.5s ease-out;
+                        -ms-transition: 0.5s ease-out;
+                        -o-transition: 0.5s ease-out;
+                        border: none;
+                        background-color: #EFEEE5;
+                        text-align: center;
+                        border-radius: 1em;
+                        color: #000000;
+                        -webkit-border-radius: 1em;
+                        -moz-border-radius: 1em;
+                        -ms-border-radius: 1em;
+                        -o-border-radius: 1em;
+
+                    }
+        
+                    .inp_after{
+                        opacity: 0;
+                        width: 0%;
+                        height: 3em;
+                        
+                        transition: 0.5s ease-in;
+                        -webkit-transition: 0.5s ease-in;
+                        -moz-transition: 0.5s ease-in;
+                        -ms-transition: 0.5s ease-in;
+                        -o-transition: 0.5s ease-in;
+}
+                    .srch{
+                        width: 5em;
+                        height: 3em;
+                        background-color:  #d8a81b;
+                        border: none;
+                        font-weight: bold;
+                        border-radius: 0.8em;
+                        -webkit-border-radius: 0.8em;
+                        -moz-border-radius: 0.8em;
+                        -ms-border-radius: 0.8em;
+                        -o-border-radius: 0.8em;
+                        font-family: 'Montserrat', sans-serif;
+                        color: #000000;
+                        font-size: 90%;
+                        margin-right: 1em;
+                    }
+                    .dwload{
+                        width: 7em;
+                        height: 3em;
+                        background-color:  #d8a81b;
+                        border: none;
+                        font-weight: bold;
+                        border-radius: 0.8em;
+                        -webkit-border-radius: 0.8em;
+                        -moz-border-radius: 0.8em;
+                        -ms-border-radius: 0.8em;
+                        -o-border-radius: 0.8em;
+                        font-family: 'Montserrat', sans-serif;
+                        color: #000000;
+                        font-size: 100%;
+                       
+                    }
+                    .runbut{
+                        width: 7em;
+                        height: 3em;
+                        background-color:  #ffd900;
+                        border: none;
+                        font-weight: bold;
+                        border-radius: 0.8em;
+                        -webkit-border-radius: 0.8em;
+                        -moz-border-radius: 0.8em;
+                        -ms-border-radius: 0.8em;
+                        -o-border-radius: 0.8em;
+                        font-family: 'Montserrat', sans-serif;
+                        color: #000000;
+                        font-size: 100%;
+                       
+                    }
+                    
+
+                    table{
+                        width: 80%;
+                        height: 30em;
+                        background-color:#f0f0f0;
+                        background-image: linear-gradient(#dce7ee,#f0f0f0);
+                        border-radius: 1.8em;
+                        -webkit-border-radius: 1.8em;
+                        -moz-border-radius: 1.8em;
+                        -ms-border-radius: 1.8em;
+                        -o-border-radius: 1.8em;
+}
+                    td{
+                        font-family: 'Lato', sans-serif;
+                        font-size: 100%;
+                        
+                    }
+                    #date{
+                        font-weight: bold;
+                    }
+                    th{
+                        width: 20%;
+                        height: 0em;
+                        background-color:#AFC9DC;
+                        border: none;
+                        border-radius: 1.2em;
+                        padding: 1em;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 110%;
+                        height: 0.8em;
+                        -webkit-border-radius: 1.2em;
+                        -moz-border-radius: 1.2em;
+                        -ms-border-radius: 1.2em;
+                        -o-border-radius: 1.2em;
+                    }
+                    #tb{
+                       filter: blur(10px);
+                       -webkit-filter: blur(10px);
+}
                     
