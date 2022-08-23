@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,300&family=Raleway:ital,wght@0,300;0,600;1,400&family=Roboto:ital,wght@0,500;1,300&family=Slabo+13px&display=swap');
+/* * COLORS AND FONTS
+    
+*   fonts:
+*   font-family: 'Lato', sans-serif;
+*   font-family: 'Montserrat', sans-serif;
+*   font-family: 'Raleway', sans-serif;
+*   font-family: 'Roboto', sans-serif;
+*   font-family: 'Slabo 13px', serif;
+    colors:  
+* */
+.colors{
+    visibility: hidden;
+    #274546
+    #EFEEE5
+    #232323
+    #FBF8F3
+    #006A6A
+    #FFFCF6
+    #F2F4F6
+    #AFC9DC
+    #FFF0EB
+    #2D0B00
+    #FFF0EB
+    #064439
+}
+
+
+
+
+/*! RESOURCES */
+
+/*? ANIMATIONS*/
+
+/* TODO - MAIN*/
+
+body{
+    margin: 0;
+    height: 150em;
+    
+}
+    .site{
+        width: 100%;
+        height: 100%;
+                   
+         background-image: linear-gradient(to right,#EFEEE5, #fff8ea);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .page{
+            display: flex;
+            justify-content: baseline;
+            align-items: flex-start;
+
+            background-color:   #FFFCF6;
+            width: 65em;
+            height: 98%;
+            filter: drop-shadow(0 0 20px #bebebe);
+            -webkit-filter: drop-shadow(0 0 20px #bebebe);
+}
+        .pg_start{
+            width: 100%;
+            height: 14em;
+            background-color:   #006A6A;
+           
+            display: block;
+          
+}
+            .st_info{
+                width: 100%;
+                height: 10em;
+                display: flex;
+                align-items: center;
+            }
+                .in_logo{
+                    width: 60%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    height: 100%;
+                }
+                                        .logo{
+                                                color: #FFFFFF;
+                                                font-family: 'Lato', sans-serif;
+                                                font-family: 'Montserrat', sans-serif;
+                                                font-size: 220%;
+                                                height: 0.8em;
+}
+                                        .unlogo{
+                                            margin-top: 0;
+                                            color: #FDFDFD;
+                                            font-family: 'Raleway', sans-serif;
+                                        }
+                .in_con{
+                    width: 40%;
+                    height: 90%;
+                    background-color: #075a5a;
+                    border-radius: 4em 0em 0em 4em;
+                    -webkit-border-radius: 4em 0em 0em 4em;
+                    -moz-border-radius: 4em 0em 0em 4em;
+                    -ms-border-radius: 4em 0em 0em 4em;
+                    -o-border-radius: 4em 0em 0em 4em;
+}
+                    .con_dir{
+                        width: 100%;
+                        height: 4em;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .con_scmedia{
+                        width: 100%;
+                        height: 6em;
+                    }
+
+
+            .st_nvbar{
+                width: 100%;
+                height: 4em;
+                background-color:  #274546;
+           
+                
+            }
+                .nvbuts{
+                   
+                    width: 60%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    height: 100%;
+                }
+                    .nvb{
+                       width: 20%;
+                       height: 75%;
+                       border: none;
+                       border-radius: 1.6em;
+                       -webkit-border-radius: 1.6em;
+                       -moz-border-radius: 1.6em;
+                       -ms-border-radius: 1.6em;
+                       -o-border-radius: 1.6em;
+                       background-color: #f0f0f0;
+                       filter: drop-shadow(0 0 2px #f0f0f0);
+                       -webkit-filter: drop-shadow(0 0 2px #f0f0f0);
+}
+                    .nvsp{
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: bold;
+                        font-size: 120%;
+                    }
