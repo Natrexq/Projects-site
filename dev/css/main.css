@@ -39,16 +39,22 @@ body{
     height: 220em;
     
 }
+    *{
+        outline: none;
+    }
     .site{
         width: 100%;
         height: 100%;
                    
-         background-image: linear-gradient(to right,#EFEEE5, #fff8ea);
+         background-image: url('MPLBACK.png');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
         display: flex;
         justify-content: center;
         align-items: center;
     }
         .page{
+            opacity: 100%;
             border-radius: 1em;
             background-color:   #FFFCF6;
             width: 65em;
@@ -192,7 +198,12 @@ body{
                             -moz-border-radius: 1em;
                             -ms-border-radius: 1em;
                             -o-border-radius: 1em;
-}
+                        }
+                        #gallery{
+                            background-color: #232329;
+                            height: 20em;
+                            
+                        }
                         .welp{
                             display: flex;
                         }
@@ -206,12 +217,12 @@ body{
                     #title{
                         font-family: 'Lato', sans-serif;
                         font-family: 'Montserrat', sans-serif;
-                        font-size: 220%;
+                        font-size: 180%;
                         height: 2em;
                     }
                     .cn_tx{
                         font-family: 'Lato', sans-serif;
-                        font-size: 180%;
+                        font-size: 150%;
                             margin: 8px;
                         
                     }
@@ -219,36 +230,37 @@ body{
                     #titlesm{
                         font-family: 'Lato', sans-serif;
                         font-family: 'Montserrat', sans-serif;
-                        font-size: 180%;
+                        font-size: 160%;
                         height: 0.8em;
                         height: 2em;
                         margin-top: 0.5em;
                     }
                     .cn_txsm{
                         font-family: 'Lato', sans-serif;
-                        font-size: 150%;
+                        font-size: 130%;
                         margin: 8px;
                     }
 
 
                     .gitbut{
                         width: 12em;
-                        height: 4em;
+                        height: 3em;
                         background-size: cover;
-                        background-image: url('/dev/css/github.png');   
+                        background-image: url('github.png');   
                         border: none;
                         background-color: transparent;
                         background-position-y: -0.4em;
 
                     }
                     .inp_bef{
-                        width: 12em;
+                        outline: none;
+                        width: 8em;
                         height: 3em;
-                        transition: 0.5s ease-out;
-                        -webkit-transition: 0.5s ease-out;
-                        -moz-transition: 0.5s ease-out;
-                        -ms-transition: 0.5s ease-out;
-                        -o-transition: 0.5s ease-out;
+                        transition: 0.5s ease-out, 500ms width;
+                        -webkit-transition: 0.5s ease-out, 500ms width;
+                        -moz-transition: 0.5s ease-out, 500ms width;
+                        -ms-transition: 0.5s ease-out, 500ms width;
+                        -o-transition: 0.5s ease-out, 500ms width;
                         border: none;
                         background-color: #EFEEE5;
                         text-align: center;
@@ -257,15 +269,16 @@ body{
                         -webkit-border-radius: 1em;
                         -moz-border-radius: 1em;
                         -ms-border-radius: 1em;
-                        -o-border-radius: 1em;
+                        -o-border-radius: 1em;  
+}
+                    .inp_bef:focus{width: 11em;}
 
-                    }
         
                     .inp_after{
                         opacity: 0;
                         width: 0%;
                         height: 3em;
-                        
+                        text-align: center;
                         transition: 0.5s ease-in;
                         -webkit-transition: 0.5s ease-in;
                         -moz-transition: 0.5s ease-in;
@@ -287,7 +300,14 @@ body{
                         color: #000000;
                         font-size: 90%;
                         margin-right: 1em;
-                    }
+                        transition: 500ms width;
+                        -webkit-transition: 500ms width;
+                        -moz-transition: 500ms width;
+                        -ms-transition: 500ms width;
+                        -o-transition: 500ms width;
+                        
+}
+                    .srch:focus{width: 7em;}
                     .dwload{
                         width: 7em;
                         height: 3em;
