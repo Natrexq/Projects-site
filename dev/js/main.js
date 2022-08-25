@@ -189,7 +189,7 @@ function SearchSmh(){
                 else if(y == 4){
                         window.open("https://github.com/Natrexq/Projects-site");     
                 }
-
+                //
         }
         dwff.addEventListener('click',function(){ChcDow(1);},false);
         dwfc.addEventListener('click',function(){ChcDow(2);},false);
