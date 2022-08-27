@@ -1,3 +1,8 @@
+//----------------------------------------------//
+//  Table
+//----------------------------------------------//
+//  Last Edit 27.08.2022
+//----------------------------------------------//
 function TableFunc() {
   const filefo = document.querySelector("#filefo");
   const foru = document.querySelector("#foru");
