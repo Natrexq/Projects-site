@@ -3,7 +3,7 @@
 <h3>Information about project:</h3>
 <h4>I used html,css and normal js to make it</h4>
 <h4>Project was ended in 27.08.22 - You can download/edit it</h4>
-<h3 align="center">Photos:</h3>
+<h3>Photos:</h3>
 <img align="center" src="/dev/css/screenshot1.png" >
 <img align="center" src="/dev/css/screenshot2.png" >
 <img align="center" src="/dev/css/screenshot3.png" >
